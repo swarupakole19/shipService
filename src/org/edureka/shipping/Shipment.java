@@ -1,9 +1,10 @@
-package org.edureka.shipping;
+	package org.edureka.shipping;
 
 import java.util.Date;
 
 public class Shipment {
 	int resourceId;
+	int age;
 	Date shipmentDate;
 	Date expiryDate;
 	String deliveryText;
@@ -89,6 +90,7 @@ public class Shipment {
 		String firstName;
 		String lastName;
 		String streetAddress;
+		int age;
 		int Pincode;
 	}
 
